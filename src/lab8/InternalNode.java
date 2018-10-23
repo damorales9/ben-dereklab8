@@ -10,4 +10,9 @@ public class InternalNode extends Node
      left = nodeOne;
      right = nodeTwo;
   }
+
+  public void dump(String code)
+  {
+    System.out.println("the code for " + letter + " is " + code);
+  }
 }
