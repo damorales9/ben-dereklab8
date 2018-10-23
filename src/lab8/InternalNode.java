@@ -13,6 +13,7 @@ public class InternalNode extends Node
 
   public void dump(String code)
   {
-    System.out.println("the code for " + letter + " is " + code);
+    left.dump(code);
+    right.dump(code);;
   }
 }
