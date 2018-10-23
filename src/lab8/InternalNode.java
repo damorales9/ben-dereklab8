@@ -15,4 +15,11 @@ public class InternalNode extends Node
     left.dump(code);
     right.dump(code);;
   }
+
+  public String toString()
+  {
+    String s = "";
+    s += " Left subtree: " + left + " Right subtree: " + right;
+    return s;
+  }
 }
