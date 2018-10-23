@@ -1,4 +1,4 @@
-public class HuffmanExample extends Node
+public class HuffmanExample
 {
   public Node encodeExample()
   {
