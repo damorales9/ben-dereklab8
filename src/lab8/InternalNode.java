@@ -18,8 +18,6 @@ public class InternalNode extends Node
 
   public String toString()
   {
-    String s = "";
-    s += " Left subtree: " + left + " Right subtree: " + right;
-    return s;
+    return "" + left.toString() + " "  + right.toString();
   }
 }
