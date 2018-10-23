@@ -11,4 +11,6 @@ public abstract class Node implements Comparable<Node>
   {
     return count - otherGuy.count;
   }
+
+  public abstract void dump(String code);
 }

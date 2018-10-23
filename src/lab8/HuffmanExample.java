@@ -3,10 +3,10 @@ public class HuffmanExample
 {
   public Node encodeExample()
   {
-     return runExample();
+     return runExample().poll();
   }
 
-  public Node runExample()
+  public PriorityQueue<Node> runExample()
   {
     PriorityQueue<Node> pq = new PriorityQueue<>();
     pq.offer(new LetterNode('a', 50));
@@ -22,6 +22,7 @@ public class HuffmanExample
       InternalNode newNode = new InternalNode(node1, node2);
       pq.offer(newNode);
     }
+    return pq;
   }
 
   public static void main (String[] args)

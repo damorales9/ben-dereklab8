@@ -5,8 +5,7 @@ public class InternalNode extends Node
 
   public InternalNode(Node nodeOne, Node nodeTwo)
   {
-     super(count);
-     count = nodeOne.count + nodeTwo.count;
+     super(nodeOne.count + nodeTwo.count);
      left = nodeOne;
      right = nodeTwo;
   }
