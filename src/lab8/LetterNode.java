@@ -12,4 +12,9 @@ public class LetterNode extends Node
 	{
 		return letter + ", " +  super.count;
 	}
+
+	public void dump(String code)
+	{
+		System.out.println("the code for " + letter + " is " + code);
+	}
 }
