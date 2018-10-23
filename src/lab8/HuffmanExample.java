@@ -30,7 +30,7 @@ public class HuffmanExample
      HuffmanExample h = new HuffmanExample();
      Node finalTree = h.encodeExample();
      System.out.println("final tree = " + finalTree);
-     finalTree.dump("");
+     finalTree.dump("abba");
   }
   
 }

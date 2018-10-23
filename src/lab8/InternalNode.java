@@ -12,12 +12,11 @@ public class InternalNode extends Node
 
   public void dump(String code)
   {
-    left.dump(code);
-    right.dump(code);;
+    return;
   }
 
   public String toString()
   {
-    return "" + left.toString() + " "  + right.toString();
+    return "( " + left.toString() + " ^ " + super.count + " ^ "  + right.toString() + " )";
   }
 }
